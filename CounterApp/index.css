@@ -29,9 +29,37 @@ button {
 }
 
 #add-btn {
-  background-color: red;
+  background-color: rgb(6, 87, 10);
 }
 
 #add-btn:hover {
+  background-color: rgb(7, 61, 2);
+  cursor: pointer;
+}
+
+#sub-btn {
+  background-color: red;
+}
+
+#sub-btn:hover {
   background-color: rgb(122, 28, 28);
+  cursor: pointer;
+}
+
+#save-btn {
+  background-color: rgb(145, 121, 121);
+}
+
+#save-btn:hover {
+  background-color: rgb(32, 31, 31);
+  cursor: pointer;
+}
+
+#erase-btn {
+  background-color: rgb(0, 0, 0);
+}
+
+#erase-btn:hover {
+  background-color: rgb(100, 49, 49);
+  cursor: pointer;
 }
