@@ -9,25 +9,25 @@
   <h1>CALCULATOR</h1>
   <h2 id="text-el"></h2>
   <div class="grid-container">
-    <button id="num-btn" onclick="writeOne()">1</button>
-    <button id="num-btn" onclick="writeTwo()">2</button>
-    <button id="num-btn" onclick="writeThree()">3</button>
-    <button id="num-btn" onclick="writeFour()">4</button>
-    <button id="num-btn" onclick="writeFive()">5</button>
-    <button id="num-btn" onclick="writeSix()">6</button>
-    <button id="num-btn" onclick="writeSeven()">7</button>
-    <button id="num-btn" onclick="writeEight()">8</button>
-    <button id="num-btn" onclick="writeNine()">9</button>
-    <button id="num-btn" onclick="writeZero()">0</button>
+    <button id="num-btn" onclick="writeDigit(1)">1</button>
+    <button id="num-btn" onclick="writeDigit(2)">2</button>
+    <button id="num-btn" onclick="writeDigit(3)">3</button>
+    <button id="num-btn" onclick="writeDigit(4)">4</button>
+    <button id="num-btn" onclick="writeDigit(5)">5</button>
+    <button id="num-btn" onclick="writeDigit(6)">6</button>
+    <button id="num-btn" onclick="writeDigit(7)">7</button>
+    <button id="num-btn" onclick="writeDigit(8)">8</button>
+    <button id="num-btn" onclick="writeDigit(9)">9</button>
+    <button id="num-btn" onclick="writeDigit(0)">0</button>
   </div>
 
   <div class="grid-container">
-    <button id="op-btn">+</button>
-    <button id="op-btn">-</button>
-    <button id="op-btn">/</button>
-    <button id="op-btn">*</button>
-    <button id="op-btn">=</button>
-    <button id="op-btn">CLEAR</button>
+    <button id="op-btn" onclick="writeOp('+')">+</button>
+    <button id="op-btn" onclick="writeOp('-')">-</button>
+    <button id="op-btn" onclick="writeOp('/')">/</button>
+    <button id="op-btn" onclick="writeOp('*')">*</button>
+    <button id="op-btn" onclick="equals()">=</button>
+    <button id="op-btn" onclick="clearText()">CLEAR</button>
   </div>
   
   
